@@ -1,0 +1,72 @@
+* {
+    font-family: "Century Gothic";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/src/images/bg.jpg);
+    background-position: right;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+}
+
+.camera {
+    display: grid;
+    justify-content: center;
+}
+
+.videoFrame {
+    border-radius: 10px;
+    border: 2px solid white;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.result {
+    border-radius: 10px;
+    border: 2px solid white;
+    height: 474px;
+    width: 804px;
+    z-index: -1;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.result.hasPhoto {
+    z-index: 1;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.buttons button {
+    margin: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: #16181f;
+    transition: box-shadow ease 0.4s;
+}
+
+.buttons button:enabled:hover {
+    box-shadow: 0px 0px 20px 2px #ffffff;
+}
+
+.downloadLink:active,
+.downloadLink:visited,
+.downloadLink:hover,
+.downloadLink:link {
+    color: #16181f;
+}
