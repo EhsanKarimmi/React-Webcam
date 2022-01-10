@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/React-Webcam/static/css/main.7b3e97a6.css",
+    "main.js": "/React-Webcam/static/js/main.fceb20c3.js",
+    "static/media/bg.jpg": "/React-Webcam/static/media/bg.de0bdb7dde8f62109767.jpg",
+    "index.html": "/React-Webcam/index.html",
+    "main.7b3e97a6.css.map": "/React-Webcam/static/css/main.7b3e97a6.css.map",
+    "main.fceb20c3.js.map": "/React-Webcam/static/js/main.fceb20c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b3e97a6.css",
+    "static/js/main.fceb20c3.js"
+  ]
+}
